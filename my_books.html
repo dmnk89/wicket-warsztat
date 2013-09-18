@@ -1,60 +1,70 @@
 ---
-title: main
+title: my_books
 layout: default
 ---
 
 
-<div class="container">
+<div class="container ">
 
-    <div class="row jumbotron">
-        <div class="col-md-6">
-            <form>
-                <div class="input-group input-group-lg">
-                    <input type="text" class="form-control input-lg" placeholder="Username">
-                    <a class="input-group-addon button" href="#"><span class="glyphicon glyphicon-chevron-down"></span>
-                    </a>
-                </div>
-
-            </form>
-
-        </div>
-    </div>
     <!-- Main component for a primary marketing message or call to action -->
-    {% for i in (1..5) %}
+    <table class="table table-hover table-striped .table-condensed text-middle">
+        <thead>
+        </thead>
+        {% for i in (1..5) %}
+        <tr>
+            <td>
+                <a href="book.html"><img src="http://placekitten.com/g/75/75"> </a>
+            </td>
+            <td>
+                <a href="book.html">Bacon ipsum - dolor sit</a>
+            </td>
+            <td>
+                <span>Jan Kowalski</span>
+            </td>
+            <td>
+                <a href="#" class="btn btn-danger">chcę zwrócić</a>
+                <a href="#" class="btn btn-info">cofnij</a>
+            </td>
+        </tr>
+        {% endfor %}
 
-    <div class="row jumbotron">
-        <div class="col-md-3 text-center">
-            <a href="book.html"><img src="http://placekitten.com/g/150/150"> </a>
+        {% for i in (1..5) %}
+        <tr>
+            <td>
+                <a href="book.html"><img src="http://placekitten.com/g/75/75"> </a>
+            </td>
+            <td>
+                <a href="book.html">Bacon ipsum - dolor sit</a>
+            </td>
+            <td>
+                <span>Jan Kowalski</span>
+            </td>
+            <td>
+                <a href="#" class="btn btn-success">chcę pożyczyć</a>
+                <a href="#" class="btn btn-warning">anuluj</a>
+                <a href="#" class="btn btn-info">cofnij</a>
+            </td>
+        </tr>
+        {% endfor %}
 
-            <div class="row">
-                <input type="range" min="0" max="7" value="{{i}}" step="0.5" id="backing{{i}}">
-
-                <div class="rateit" data-rateit-backingfld="#backing{{i}}" data-rateit-readonly="true"></div>
-            </div>
-            <div class="btn-group" style="margin-top: 10px;">
-                <a href="#" class="btn btn-success btn-lg">ja mam</a>
-                <a href="#" class="btn btn-primary btn-lg ">ja chcem</a>
-            </div>
-        </div>
-        <div class="col-md-9 ">
-            <h2><a href="book.html">Bacon ipsum - dolor sit</a></h2>
-
-            <p> amet sirloin biltong shankle, pork chop tenderloin doner drumstick.
-                Pork belly shankle prosciutto, kevin tail corned beef ham hock.
-                Ribeye leberkas boudin ham hock pork belly bacon fatback ball tip
-                spare ribs beef brisket andouille hamburger. Swine rump pancetta,
-                pork belly drumstick beef ribs flank chicken short loin corned beef
-                cow hamburger biltong pastrami. Boudin chuck drumstick beef chicken.</p>
-        </div>
-        <!--<div class="col-md-2 ">-->
-        <!--<div style="float: right">-->
-        <!--</div>-->
-        <!--</div>-->
-    </div>
-
-
-    {% endfor %}
-
+        {% for i in (1..5) %}
+        <tr>
+            <td>
+                <a href="book.html"><img src="http://placekitten.com/g/75/75"> </a>
+            </td>
+            <td>
+                <a href="book.html">Bacon ipsum - dolor sit</a>
+            </td>
+            <td>
+                <span>Jan Kowalski</span>
+            </td>
+            <td>
+                <a href="#" class="btn btn-primary">poproś o zwrot</a>
+                <a href="#" class="btn btn-info">cofnij</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
 </div>
 <!-- /container -->
 

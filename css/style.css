@@ -6,3 +6,7 @@
     /*display: none;*/
     /*visibility: hidden;*/
 }
+
+table.text-middle tr>td{
+    vertical-align: middle;
+}
