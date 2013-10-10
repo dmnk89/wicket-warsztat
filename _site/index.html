@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="src/rateit.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-static-top" >
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">JUGoteka</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="/my_books.html">my Books</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../navbar/">Default</a></li>
+                <li><a href="../navbar-static-top/">Static top</a></li>
+                <li class="active"><a href="./">Fixed top</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<div class="container">
+
+    <div class="row jumbotron">
+        <div class="col-md-6">
+            <form>
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control input-lg" placeholder="Username">
+                    <a class="input-group-addon button" href="#"><span class="glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+    <!-- Main component for a primary marketing message or call to action -->
+    
+
+    <div class="row jumbotron">
+        <div class="col-md-3 text-center">
+            <a href="book.html"><img src="http://placekitten.com/g/150/150"> </a>
+
+            <div class="row">
+                <input type="range" min="0" max="7" value="1" step="0.5" id="backing1">
+
+                <div class="rateit" data-rateit-backingfld="#backing1" data-rateit-readonly="true"></div>
+            </div>
+            <div class="btn-group" style="margin-top: 10px;">
+                <a href="#" class="btn btn-success btn-lg">ja mam</a>
+                <a href="#" class="btn btn-primary btn-lg ">ja chcem</a>
+            </div>
+            <a href="#" class="btn btn-info">cofnij</a>
+        </div>
+        <div class="col-md-9 ">
+            <h2><a href="book.html">Bacon ipsum - dolor sit</a></h2>
+
+            <p> amet sirloin biltong shankle, pork chop tenderloin doner drumstick.
+                Pork belly shankle prosciutto, kevin tail corned beef ham hock.
+                Ribeye leberkas boudin ham hock pork belly bacon fatback ball tip
+                spare ribs beef brisket andouille hamburger. Swine rump pancetta,
+                pork belly drumstick beef ribs flank chicken short loin corned beef
+                cow hamburger biltong pastrami. Boudin chuck drumstick beef chicken.</p>
+        </div>
+        <!--<div class="col-md-2 ">-->
+        <!--<div style="float: right">-->
+        <!--</div>-->
+        <!--</div>-->
+    </div>
+
+
+    
+
+    <div class="row jumbotron">
+        <div class="col-md-3 text-center">
+            <a href="book.html"><img src="http://placekitten.com/g/150/150"> </a>
+
+            <div class="row">
+                <input type="range" min="0" max="7" value="2" step="0.5" id="backing2">
+
+                <div class="rateit" data-rateit-backingfld="#backing2" data-rateit-readonly="true"></div>
+            </div>
+            <div class="btn-group" style="margin-top: 10px;">
+                <a href="#" class="btn btn-success btn-lg">ja mam</a>
+                <a href="#" class="btn btn-primary btn-lg ">ja chcem</a>
+            </div>
+            <a href="#" class="btn btn-info">cofnij</a>
+        </div>
+        <div class="col-md-9 ">
+            <h2><a href="book.html">Bacon ipsum - dolor sit</a></h2>
+
+            <p> amet sirloin biltong shankle, pork chop tenderloin doner drumstick.
+                Pork belly shankle prosciutto, kevin tail corned beef ham hock.
+                Ribeye leberkas boudin ham hock pork belly bacon fatback ball tip
+                spare ribs beef brisket andouille hamburger. Swine rump pancetta,
+                pork belly drumstick beef ribs flank chicken short loin corned beef
+                cow hamburger biltong pastrami. Boudin chuck drumstick beef chicken.</p>
+        </div>
+        <!--<div class="col-md-2 ">-->
+        <!--<div style="float: right">-->
+        <!--</div>-->
+        <!--</div>-->
+    </div>
+
+
+    
+
+    <div class="row jumbotron">
+        <div class="col-md-3 text-center">
+            <a href="book.html"><img src="http://placekitten.com/g/150/150"> </a>
+
+            <div class="row">
+                <input type="range" min="0" max="7" value="3" step="0.5" id="backing3">
+
+                <div class="rateit" data-rateit-backingfld="#backing3" data-rateit-readonly="true"></div>
+            </div>
+            <div class="btn-group" style="margin-top: 10px;">
+                <a href="#" class="btn btn-success btn-lg">ja mam</a>
+                <a href="#" class="btn btn-primary btn-lg ">ja chcem</a>
+            </div>
+            <a href="#" class="btn btn-info">cofnij</a>
+        </div>
+        <div class="col-md-9 ">
+            <h2><a href="book.html">Bacon ipsum - dolor sit</a></h2>
+
+            <p> amet sirloin biltong shankle, pork chop tenderloin doner drumstick.
+                Pork belly shankle prosciutto, kevin tail corned beef ham hock.
+                Ribeye leberkas boudin ham hock pork belly bacon fatback ball tip
+                spare ribs beef brisket andouille hamburger. Swine rump pancetta,
+                pork belly drumstick beef ribs flank chicken short loin corned beef
+                cow hamburger biltong pastrami. Boudin chuck drumstick beef chicken.</p>
+        </div>
+        <!--<div class="col-md-2 ">-->
+        <!--<div style="float: right">-->
+        <!--</div>-->
+        <!--</div>-->
+    </div>
+
+
+    
+
+    <div class="row jumbotron">
+        <div class="col-md-3 text-center">
+            <a href="book.html"><img src="http://placekitten.com/g/150/150"> </a>
+
+            <div class="row">
+                <input type="range" min="0" max="7" value="4" step="0.5" id="backing4">
+
+                <div class="rateit" data-rateit-backingfld="#backing4" data-rateit-readonly="true"></div>
+            </div>
+            <div class="btn-group" style="margin-top: 10px;">
+                <a href="#" class="btn btn-success btn-lg">ja mam</a>
+                <a href="#" class="btn btn-primary btn-lg ">ja chcem</a>
+            </div>
+            <a href="#" class="btn btn-info">cofnij</a>
+        </div>
+        <div class="col-md-9 ">
+            <h2><a href="book.html">Bacon ipsum - dolor sit</a></h2>
+
+            <p> amet sirloin biltong shankle, pork chop tenderloin doner drumstick.
+                Pork belly shankle prosciutto, kevin tail corned beef ham hock.
+                Ribeye leberkas boudin ham hock pork belly bacon fatback ball tip
+                spare ribs beef brisket andouille hamburger. Swine rump pancetta,
+                pork belly drumstick beef ribs flank chicken short loin corned beef
+                cow hamburger biltong pastrami. Boudin chuck drumstick beef chicken.</p>
+        </div>
+        <!--<div class="col-md-2 ">-->
+        <!--<div style="float: right">-->
+        <!--</div>-->
+        <!--</div>-->
+    </div>
+
+
+    
+
+    <div class="row jumbotron">
+        <div class="col-md-3 text-center">
+            <a href="book.html"><img src="http://placekitten.com/g/150/150"> </a>
+
+            <div class="row">
+                <input type="range" min="0" max="7" value="5" step="0.5" id="backing5">
+
+                <div class="rateit" data-rateit-backingfld="#backing5" data-rateit-readonly="true"></div>
+            </div>
+            <div class="btn-group" style="margin-top: 10px;">
+                <a href="#" class="btn btn-success btn-lg">ja mam</a>
+                <a href="#" class="btn btn-primary btn-lg ">ja chcem</a>
+            </div>
+            <a href="#" class="btn btn-info">cofnij</a>
+        </div>
+        <div class="col-md-9 ">
+            <h2><a href="book.html">Bacon ipsum - dolor sit</a></h2>
+
+            <p> amet sirloin biltong shankle, pork chop tenderloin doner drumstick.
+                Pork belly shankle prosciutto, kevin tail corned beef ham hock.
+                Ribeye leberkas boudin ham hock pork belly bacon fatback ball tip
+                spare ribs beef brisket andouille hamburger. Swine rump pancetta,
+                pork belly drumstick beef ribs flank chicken short loin corned beef
+                cow hamburger biltong pastrami. Boudin chuck drumstick beef chicken.</p>
+        </div>
+        <!--<div class="col-md-2 ">-->
+        <!--<div style="float: right">-->
+        <!--</div>-->
+        <!--</div>-->
+    </div>
+
+
+    
+
+</div>
+<!-- /container -->
+
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="src/jquery.rateit.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.text-justify{
+    text-align: justify;
+}
+
+.rateit-reset{
+    /*display: none;*/
+    /*visibility: hidden;*/
+}
+
+table.text-middle tr>td{
+    vertical-align: middle;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
